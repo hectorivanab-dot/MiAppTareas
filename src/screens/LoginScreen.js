@@ -2,7 +2,7 @@ import React, {useState, useContext} from "react";
 import {View, TextInput, Button, StyleSheet, Text, ActivityIndicator, Alert} from 'react-native';
 import { AuthContext } from "../context/authContext";
 import { loginService } from "../api/apiService";
-
+//Pantalla de login, donde el usuario ingresa su correo y contraseña para autenticarse. Si el login es exitoso, se guarda el token en el contexto global y se redirige al HomeScreen. Si hay un error, se muestra una alerta.
 const LoginScreen = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
