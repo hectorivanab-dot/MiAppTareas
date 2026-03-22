@@ -15,7 +15,7 @@ const TaskScreen = () => {
         const res = await taskApiService.getAll(userToken);
         if (res.datos) setTasks(res.datos);
     };
-
+// Cargar tareas al montar el componente
     useEffect(() => { loadTasks(); }, []);
 
     const handleSave = async () => {
