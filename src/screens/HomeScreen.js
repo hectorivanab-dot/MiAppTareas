@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image, ActivityIndicator } from 'react-native';
 import { AuthContext } from '../context/authContext';
 import { getProfileService } from '../api/apiService';
-
+//Pantalla Inicial Despues de Login
 const HomeScreen = ({ navigation }) => {
     const { logout, userToken } = useContext(AuthContext);
     const [perfil, setPerfil] = useState(null);
