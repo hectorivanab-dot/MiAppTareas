@@ -87,8 +87,7 @@ const TaskScreen = () => {
         </View>
     );
 };
-//Gestion de Tareas
-
+//Gestionar las tareas, apartado visual para crear, editar y eliminar tareas.
 const styles = StyleSheet.create({
     container: { flex: 1, padding: 20, paddingTop: 60 },
     title: { fontSize: 24, fontWeight: 'bold', marginBottom: 20 },
