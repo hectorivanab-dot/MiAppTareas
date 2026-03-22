@@ -39,7 +39,7 @@ const TaskScreen = () => {
             }}
         ]);
     };
-
+// Abrir modal con datos de la tarea a editar
     const openEdit = (task) => {
         setEditingTask(task);
         setForm({ titulo: task.titulo, descripcion: task.descripcion });
