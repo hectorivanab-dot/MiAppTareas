@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
         setUserToken(null);
         await AsyncStorage.removeItem('userToken');
     };
-
+// Verificar si el usuario ya tiene un token guardado al iniciar la app
     const isLoggedIn = async () => {
         try {
             // 1. Intentamos buscar el token
@@ -44,3 +44,4 @@ export const AuthProvider = ({ children }) => {
     )
 }
 //Compartir estado de autenticacion
+//Autenticacion de usuario,
