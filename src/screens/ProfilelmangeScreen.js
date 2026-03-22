@@ -87,7 +87,7 @@ const ProfileImageScreen = ({ navigation }) => {
         </View>
     );
 };
-
+//Pantalla para cambiar la imagen de perfil.
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: '#fff', padding: 20, paddingTop: 60, alignItems: 'center' },
     title: { fontSize: 24, fontWeight: 'bold', color: '#333', marginBottom: 30 },
