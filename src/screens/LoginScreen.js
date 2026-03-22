@@ -51,7 +51,7 @@ const LoginScreen = () => {
         </View>
     );
 };
-
+// Diseño de login
 const styles = StyleSheet.create ({
     container: {flex: 1, justifyContent: "center", padding: 20},
     title: {fontSize: 28, fontWeight: "bold", textAlign: 'center', marginBottom: 30, color: '#39A900'},
