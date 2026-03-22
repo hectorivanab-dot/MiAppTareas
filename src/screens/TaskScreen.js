@@ -29,7 +29,7 @@ const TaskScreen = () => {
         setEditingTask(null);
         loadTasks();
     };
-
+// Eliminar tarea con confirmación
     const handleDelete = (id) => {
         Alert.alert("Eliminar", "¿Estás seguro?", [
             { text: "Cancelar" },
