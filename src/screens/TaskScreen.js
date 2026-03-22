@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { View, Text, FlatList, StyleSheet, TouchableOpacity, Modal, TextInput, Button, Alert } from 'react-native';
 import { AuthContext } from '../context/authContext';
 import { taskApiService } from '../api/apiService';
-
+//Pantalla de gestion de tareas, donde el usuario puede ver sus tareas, crear nuevas, editar o eliminar las existentes. Se utiliza un modal para el formulario de creación/edición y se muestra una lista de tareas con opciones para cada una.
 const TaskScreen = () => {
     const [tasks, setTasks] = useState([]);
     const [modalVisible, setModalVisible] = useState(false);
