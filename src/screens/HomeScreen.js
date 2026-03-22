@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
         elevation: 5,
         marginBottom: 30
     },
+    // Si el usuario no tiene foto, se muestra un placeholder circular
     avatar: { width: 80, height: 80, borderRadius: 40, backgroundColor: '#eee' },
     info: { marginLeft: 20 },
     name: { fontSize: 20, fontWeight: 'bold', color: '#333' },
