@@ -61,3 +61,4 @@ const styles = StyleSheet.create ({
 export default LoginScreen;
 
 // Inicio de sesion
+//Diseño de login

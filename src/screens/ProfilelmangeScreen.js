@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Image, Alert, ActivityIndicat
 import * as ImagePicker from 'expo-image-picker'; // Librería de Expo
 import { AuthContext } from '../context/authContext';
 import { uploadProfileImageService } from '../api/apiService';
-
+//Editor de imagen de perfil
 const ProfileImageScreen = ({ navigation }) => {
     const { userToken } = useContext(AuthContext);
     const [selectedImage, setSelectedImage] = useState(null); // Uri local
