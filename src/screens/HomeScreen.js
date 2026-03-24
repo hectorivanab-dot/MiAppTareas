@@ -60,34 +60,81 @@ const HomeScreen = ({ navigation }) => {
 // Diseño de home
 //Pantalla Inicial Despues de Login
 const styles = StyleSheet.create({
-    container: { flex: 1, backgroundColor: '#f8f9fa', padding: 20, paddingTop: 60 },
+    container: { 
+        flex: 1, 
+        backgroundColor: '#F1F5F9', 
+        padding: 20, 
+        paddingTop: 60 
+    },
+
     profileCard: { 
         flexDirection: 'row', 
-        backgroundColor: '#fff', 
+        backgroundColor: '#FFFFFF', 
         padding: 20, 
         borderRadius: 20, 
         alignItems: 'center',
-        elevation: 5,
+        elevation: 4,
         marginBottom: 30
     },
-    // Si el usuario no tiene foto, se muestra un placeholder circular
-    avatar: { width: 80, height: 80, borderRadius: 40, backgroundColor: '#eee' },
+
+    avatar: { 
+        width: 80, 
+        height: 80, 
+        borderRadius: 40, 
+        backgroundColor: '#E2E8F0' 
+    },
+
     info: { marginLeft: 20 },
-    name: { fontSize: 20, fontWeight: 'bold', color: '#333' },
-    role: { fontSize: 14, color: '#39A900', fontWeight: '600', marginTop: 4 },
-    grid: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 20 },
+
+    name: { 
+        fontSize: 20, 
+        fontWeight: 'bold', 
+        color: '#0F172A' 
+    },
+
+    role: { 
+        fontSize: 14, 
+        color: '#2563EB', 
+        fontWeight: '600', 
+        marginTop: 4 
+    },
+
+    grid: { 
+        flexDirection: 'row', 
+        justifyContent: 'space-between', 
+        marginBottom: 20 
+    },
+
     menuItem: { 
-        backgroundColor: '#fff', 
+        backgroundColor: '#FFFFFF', 
         width: '48%', 
         padding: 25, 
         borderRadius: 15, 
         alignItems: 'center',
         elevation: 3
     },
-    icon: { fontSize: 32, marginBottom: 10 },
-    menuText: { fontWeight: '600', color: '#444' },
-    logoutBtn: { marginTop: 'auto', padding: 15, alignItems: 'center' },
-    logoutText: { color: '#FF4444', fontWeight: 'bold' }
+
+    icon: { 
+        fontSize: 32, 
+        marginBottom: 10, 
+        color: '#2563EB' 
+    },
+
+    menuText: { 
+        fontWeight: '600', 
+        color: '#334155' 
+    },
+
+    logoutBtn: { 
+        marginTop: 'auto', 
+        padding: 15, 
+        alignItems: 'center' 
+    },
+
+    logoutText: { 
+        color: '#EF4444', 
+        fontWeight: 'bold' 
+    }
 });
 
 export default HomeScreen;

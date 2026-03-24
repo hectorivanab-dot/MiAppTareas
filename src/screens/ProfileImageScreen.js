@@ -89,19 +89,80 @@ const ProfileImageScreen = ({ navigation }) => {
 };
 //Pantalla para cambiar la imagen de perfil.
 const styles = StyleSheet.create({
-    container: { flex: 1, backgroundColor: '#fff', padding: 20, paddingTop: 60, alignItems: 'center' },
-    title: { fontSize: 24, fontWeight: 'bold', color: '#333', marginBottom: 30 },
-    previewImage: { width: 200, height: 200, borderRadius: 100, marginBottom: 20 },
-    placeholder: { width: 200, height: 200, borderRadius: 100, backgroundColor: '#eee', justifyContent: 'center', alignItems: 'center', marginBottom: 20 },
-    placeholderText: { color: '#888', textAlign: 'center' },
-    selectBtn: { width: '100%', padding: 15, borderRadius: 10, borderWidth: 2, borderColor: '#39A900', alignItems: 'center', marginBottom: 15 },
-    selectText: { color: '#39A900', fontWeight: 'bold' },
-    uploadBtn: { width: '100%', padding: 15, borderRadius: 10, backgroundColor: '#39A900', alignItems: 'center' },
-    uploadText: { color: '#fff', fontWeight: 'bold' },
-    cancelBtn: { marginTop: 'auto', padding: 15 },
-    cancelText: { color: '#FF4444' }
-});
+    container: { 
+        flex: 1, 
+        backgroundColor: '#F1F5F9', 
+        padding: 20, 
+        paddingTop: 60, 
+        alignItems: 'center' 
+    },
 
+    title: { 
+        fontSize: 24, 
+        fontWeight: 'bold', 
+        color: '#0F172A', 
+        marginBottom: 30 
+    },
+
+    previewImage: { 
+        width: 200, 
+        height: 200, 
+        borderRadius: 100, 
+        marginBottom: 20 
+    },
+
+    placeholder: { 
+        width: 200, 
+        height: 200, 
+        borderRadius: 100, 
+        backgroundColor: '#E2E8F0', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        marginBottom: 20 
+    },
+
+    placeholderText: { 
+        color: '#64748B', 
+        textAlign: 'center' 
+    },
+
+    selectBtn: { 
+        width: '100%', 
+        padding: 15, 
+        borderRadius: 10, 
+        borderWidth: 2, 
+        borderColor: '#2563EB', 
+        alignItems: 'center', 
+        marginBottom: 15 
+    },
+
+    selectText: { 
+        color: '#2563EB', 
+        fontWeight: 'bold' 
+    },
+
+    uploadBtn: { 
+        width: '100%', 
+        padding: 15, 
+        borderRadius: 10, 
+        backgroundColor: '#2563EB', 
+        alignItems: 'center' 
+    },
+
+    uploadText: { 
+        color: '#fff', 
+        fontWeight: 'bold' 
+    },
+
+    cancelBtn: { 
+        marginTop: 'auto', 
+        padding: 15 
+    },
+
+    cancelText: { 
+        color: '#EF4444' 
+    }
+});
 export default ProfileImageScreen;
 
 //Editor de imagen de perfil

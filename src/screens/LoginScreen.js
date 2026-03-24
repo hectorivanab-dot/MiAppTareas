@@ -52,10 +52,29 @@ const LoginScreen = () => {
     );
 };
 // Diseño de login
-const styles = StyleSheet.create ({
-    container: {flex: 1, justifyContent: "center", padding: 20},
-    title: {fontSize: 28, fontWeight: "bold", textAlign: 'center', marginBottom: 30, color: '#39A900'},
-    input: {borderBottomWidth: 1, borderColor: "#ccc", marginBottom: 20, padding: 10}
+const styles = StyleSheet.create({
+    container: { 
+        flex: 1, 
+        justifyContent: "center", 
+        padding: 20,
+        backgroundColor: '#F1F5F9'
+    },
+
+    title: { 
+        fontSize: 28, 
+        fontWeight: "bold", 
+        textAlign: 'center', 
+        marginBottom: 30, 
+        color: '#2563EB'
+    },
+
+    input: { 
+        borderBottomWidth: 1, 
+        borderColor: "#CBD5F5", 
+        marginBottom: 20, 
+        padding: 10,
+        color: '#0F172A'
+    }
 });
 
 export default LoginScreen;

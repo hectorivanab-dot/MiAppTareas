@@ -89,18 +89,91 @@ const TaskScreen = () => {
 };
 //Gestionar las tareas, apartado visual para crear, editar y eliminar tareas.
 const styles = StyleSheet.create({
-    container: { flex: 1, padding: 20, paddingTop: 60 },
-    title: { fontSize: 24, fontWeight: 'bold', marginBottom: 20 },
-    card: { backgroundColor: '#fff', padding: 15, borderRadius: 10, marginBottom: 10, flexDirection: 'row', elevation: 2 },
-    taskTitle: { fontWeight: 'bold', fontSize: 16 },
-    actions: { flexDirection: 'row', gap: 15, alignItems: 'center' },
-    fab: { position: 'absolute', bottom: 30, right: 30, backgroundColor: '#39A900', width: 60, height: 60, borderRadius: 30, justifyContent: 'center', alignItems: 'center', elevation: 5 },
-    fabText: { color: '#fff', fontSize: 30 },
-    modalContent: { flex: 1, justifyContent: 'center', backgroundColor: 'rgba(0,0,0,0.5)', padding: 20 },
-    formCard: { backgroundColor: '#fff', padding: 20, borderRadius: 15 },
-    modalTitle: { fontSize: 20, fontWeight: 'bold', marginBottom: 15 },
-    input: { borderBottomWidth: 1, marginBottom: 20, padding: 8 },
-    modalButtons: { flexDirection: 'row', justifyContent: 'space-between' }
+    container: { 
+        flex: 1, 
+        padding: 20, 
+        paddingTop: 60,
+        backgroundColor: '#F1F5F9'
+    },
+
+    title: { 
+        fontSize: 24, 
+        fontWeight: 'bold', 
+        marginBottom: 20,
+        color: '#0F172A'
+    },
+
+    card: { 
+        backgroundColor: '#FFFFFF', 
+        padding: 15, 
+        borderRadius: 10, 
+        marginBottom: 10, 
+        flexDirection: 'row', 
+        elevation: 2 
+    },
+
+    taskTitle: { 
+        fontWeight: 'bold', 
+        fontSize: 16,
+        color: '#0F172A'
+    },
+
+    actions: { 
+        flexDirection: 'row', 
+        gap: 15, 
+        alignItems: 'center' 
+    },
+
+    fab: { 
+        position: 'absolute', 
+        bottom: 30, 
+        right: 30, 
+        backgroundColor: '#2563EB', 
+        width: 60, 
+        height: 60, 
+        borderRadius: 30, 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        elevation: 5 
+    },
+
+    fabText: { 
+        color: '#fff', 
+        fontSize: 30 
+    },
+
+    modalContent: { 
+        flex: 1, 
+        justifyContent: 'center', 
+        backgroundColor: 'rgba(0,0,0,0.5)', 
+        padding: 20 
+    },
+
+    formCard: { 
+        backgroundColor: '#FFFFFF', 
+        padding: 20, 
+        borderRadius: 15 
+    },
+
+    modalTitle: { 
+        fontSize: 20, 
+        fontWeight: 'bold', 
+        marginBottom: 15,
+        color: '#0F172A'
+    },
+
+    input: { 
+        borderBottomWidth: 1, 
+        marginBottom: 20, 
+        padding: 8,
+        borderColor: '#CBD5F5',
+        color: '#0F172A'
+    },
+
+    modalButtons: { 
+        flexDirection: 'row', 
+        justifyContent: 'space-between' 
+    }
 });
 
 export default TaskScreen;
